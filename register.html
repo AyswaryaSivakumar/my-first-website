@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Register</title>
+</head>
+<body>
+	<a href="index.html"><span style="font-size: 150%;">&#128281;</span></a>
+	<h1>Register</h1>
+	<form method="POST">
+		First Name : <input type="text" name="firstname"><br>
+		Last Name : <input type="text" name="lastname"><br>
+		Birthday : <input type="date" name="birthday"><br>
+		Email : <input type="email" name="email" required><br>
+		Password : <input type="password" name="password" size="3"><br><br>
+		Gender : 
+		<input type="radio" name="gender" value="Male"> Male
+		<input type="radio" name="gender" value="Female"> Female<br><br>
+		Age : 
+		<select name="age">
+			<option value="Below 18">Below 18</option>
+			<option value="Equal to 18">Equal to 18</option>
+			<option value="Above 18">Above 18</option>
+		</select><br><br>
+		Favourite colour : <input type="color" name="colour" value="#ff0000"><br><br>
+		Pets : <br>
+		<input type="checkbox" name="pet" value="Dog">Dog<br>
+		<input type="checkbox" name="pet" value="Cat">Cat<br>
+		<input type="checkbox" name="pet" value="Fish">Fish<br><br>
+		<input type="reset" value="Reset">
+		<input type="submit" value="Register!">
+	</form>
+</body>
+</html>

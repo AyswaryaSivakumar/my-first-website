@@ -1,0 +1,11 @@
+img {
+	float: left;
+}
+
+h2, ul {
+	padding-left: 20rem;
+}
+
+br {
+	clear: both;
+}
